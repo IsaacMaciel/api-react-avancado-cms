@@ -1,3 +1,4 @@
 module.exports = ({ env }) => ({
-  netlifyWebhook: env("NETLIFY_WEBHOOK"),
+  netlifyWebhook:
+    "https://api.netlify.com/build_hooks/5fd7bbafa94b3800ccbf3f9a",
 });
